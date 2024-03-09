@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  margin: auto;
+}
+body .test {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: darkblue;
+}
+body .test .containList {
+  padding-top: 20px;
+  display: block;
+  text-align: center;
+}
+body .test .containList h2 {
+  color: azure;
+  font-weight: bold;
+}
+body .test .containList ul, body .test .containList ol {
+  list-style-type: none;
+}
+body .test .containList ul a, body .test .containList ol a {
+  color: azure;
+  text-decoration: none;
+  transition: all 0.25ms ease;
+}
+body .test .containList ul a:hover, body .test .containList ol a:hover {
+  transform: scale(1.1);
+}
+body .test .containInfo {
+  margin: 150px auto;
+  display: block;
+  max-width: 1600px;
+}
+body .test .containInfo .row .col-lg-4 {
+  margin-top: 120px;
+  padding: 20px;
+  max-width: 300px;
+}
+body .test .containInfo .row .col-lg-4 form {
+  color: azure;
+  text-align: center;
+}
+body .test .containInfo .row .col-lg-4 form input {
+  cursor: pointer;
+  margin-left: 10px;
+}
+body .test .containInfo .row .col-lg-8 h3 {
+  color: azure;
+  text-align: center;
+  font-family: Roboto;
+}
+body .test .containInfo .row .col-lg-8 table {
+  border: 1px solid azure;
+}
+body .test .containInfo .row .col-lg-8 table thead, body .test .containInfo .row .col-lg-8 table tbody {
+  color: azure;
+}
+body .test .containInfo .row .col-lg-8 table thead tr th, body .test .containInfo .row .col-lg-8 table thead tr td, body .test .containInfo .row .col-lg-8 table tbody tr th, body .test .containInfo .row .col-lg-8 table tbody tr td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid azure;
+}/*# sourceMappingURL=styles.css.map */
